@@ -212,41 +212,6 @@ Response Output
 
 ---
 
-## 📦 Project Structure
-
-```
-rag-llm-project/
-├── README.md
-├── requirements.txt
-├── config.py                    # API keys, model configs
-├── 
-├── llm_core.py                 # Basic LLM setup
-├── pdf_retriever.py            # PDF embedding + retrieval
-├── web_extractor.py            # Website data extraction
-├── rag_agent.py                # Main RAG agent orchestrator
-│
-├── data/
-│   ├── pdfs/                   # PDF documents folder
-│   └── cache/                  # Cached embeddings
-│
-├── prompts/
-│   ├── system_prompt.txt       # Agent system instructions
-│   └── templates.py            # Prompt templates
-│
-├── utils/
-│   ├── logger.py               # Logging setup
-│   ├── validators.py           # Input validation
-│   └── formatters.py           # Output formatting
-│
-└── tests/
-    ├── test_llm.py
-    ├── test_pdf_retriever.py
-    ├── test_web_extractor.py
-    └── test_agent.py
-```
-
----
-
 ## 🚀 Setup & Installation
 
 ### **1. Prerequisites**
@@ -463,7 +428,7 @@ MIT License - Free to use, modify, distribute
 
 ## 👤 Author
 
-**Nimmu (Angraj Dewangan)**  
+**(Angraj Dewangan)**  
 MCA Student | Data Science & ML Specialist  
 Guru Ghasidas Vishwavidyalaya, Bilaspur
 
@@ -474,7 +439,7 @@ Guru Ghasidas Vishwavidyalaya, Bilaspur
 ```
 Questions? Issues?
 - Create GitHub Issue
-- Email: [your-email]
+- Email: angraj11011@gmail.com
 - Documentation: /docs folder
 ```
 
